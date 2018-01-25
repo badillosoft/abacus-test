@@ -7,9 +7,8 @@ app.get("/", (req, res) => {
     res.send("Hola Abacus :)");
 });
 
-const host = process.env.host || "localhost";
 const port = process.env.PORT || 3000;
 
-http.createServer(app).listen(port, host, () => {
-    console.log(`Server started at http://${host}:${port}`);
+http.createServer(app).listen(port, () => {
+    console.log(`Server started at http://XXXX:${port}`);
 });
