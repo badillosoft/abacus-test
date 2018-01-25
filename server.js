@@ -7,6 +7,10 @@ app.get("/", (req, res) => {
     res.send("Hola Abacus :)");
 });
 
+app.get("/hola", (req, res) => {
+    res.send("Hola Abacus :)");
+});
+
 const host = process.env.HOST || "localhost";
 const port = process.env.PORT || 3000;
 
