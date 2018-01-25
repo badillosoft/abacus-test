@@ -1,0 +1,13 @@
+{
+    "name": "abacus",
+    "description": "Abacus Test Server in Heroku",
+    "version": "1.0.0",
+    "author": {
+        "name": "Alan Badillo",
+        "email": "badillo.soft@hotmail.com",
+        "url": "https://github.com/badillosoft"
+    },
+    "dependencies": {
+        "express": "^4.16.2"
+    }
+}
